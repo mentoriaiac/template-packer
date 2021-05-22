@@ -1,5 +1,5 @@
 build {
-  sources = ["sources.googlecompute.default"]
+  sources = [""]
 
   provisioner "" {
   }
