@@ -10,7 +10,7 @@ on:
 jobs:
   Validation:
     runs-on: ubuntu-20.04
-    name: packer
+    name: validation
 
     steps:
       - name: Checkout Repository
