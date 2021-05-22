@@ -18,7 +18,7 @@ jobs:
 
       # validate templates
       - name: Validate Template
-        uses: hashicorp/packer-github-actions@master
+        uses: hashicorp/packer-github-actions@v0.2.0
         with:
           command: validate
           arguments: -syntax-only
