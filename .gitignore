@@ -7,8 +7,5 @@ crash.log
 # For built boxes
 *.box
 
-# Service account cred
-*.json
-
 # Remote Template Makefile
 packer.inc
