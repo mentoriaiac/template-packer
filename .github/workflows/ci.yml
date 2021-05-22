@@ -1,5 +1,5 @@
 ---
-name: Packer
+name: CI
 
 on:
   push:
