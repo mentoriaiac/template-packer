@@ -10,7 +10,7 @@ on:
 jobs:
   Validation:
     runs-on: ubuntu-20.04
-    name: packer
+    name: validation
 
     steps:
       - name: Checkout Repository
@@ -18,7 +18,7 @@ jobs:
 
       # validate templates
       - name: Validate Template
-        uses: hashicorp/packer-github-actions@v0.2.0
+        uses: hashicorp/packer-github-actions@master
         with:
           command: validate
           arguments: -syntax-only
