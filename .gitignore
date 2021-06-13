@@ -6,3 +6,6 @@ crash.log
 
 # For built boxes
 *.box
+
+# Remote Template Makefile
+packer.inc
